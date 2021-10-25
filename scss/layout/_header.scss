@@ -1,3 +1,18 @@
-h2 {
-    
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+}
+
+.hp {
+    font-size: 30px;
+    color: #b637c2;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.welcome {
+    font-size: 25px;
+    color: #4b1dcc;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
