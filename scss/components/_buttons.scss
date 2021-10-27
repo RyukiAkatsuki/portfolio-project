@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+    color: #f5dcd8;
+}
+
+.menu {
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+
+    &:hover {
+        background-color: darken($link-bg, 20%);
+    }
+}
