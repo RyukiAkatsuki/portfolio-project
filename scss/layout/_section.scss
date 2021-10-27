@@ -1,0 +1,9 @@
+section {
+    max-width: 1000px;
+    max-height: 50px;
+    margin: 0 auto;
+    background-color: $link-bg;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+}
