@@ -1,0 +1,99 @@
+.skillTree {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skillTitle {
+    color: #e3c5eb;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    width: 100%
+}
+.skillLang {
+    color: #ebe7c5;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container {
+    background-color: #c0c0c0;
+    width: 60%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.skill {
+    background-color: #74c25c;
+    color: #ffffff;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+}
+.fr {
+    width: 90%;
+}
+.cn {
+    width: 90%;
+}
+.eng {
+    width: 85%;
+}
+.jpn {
+    width: 85%;
+}
+.spn {
+    width: 15%;
+}
+.html {
+    width: 90%;
+}
+.css {
+    width: 90%;
+}
+.js {
+    width: 50%;
+}
+.scss {
+    width: 50%;
+}
+.php {
+    width: 30%;
+}
+.sql {
+    width: 30%;
+}
+.python {
+    width: 60%
+}
+.java {
+    width: 20%;
+}
+.skillSoft {
+    color: #eaf9ff;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.vsp {
+    width: 60%;
+}
+.ps {
+    width: 45%;
+}
+.ai {
+    width: 45%;
+}
+.ae {
+    width: 55%;
+}
+.xd {
+    width: 60%;
+}
+.aes {
+    width: 90%;
+}
