@@ -1,4 +1,4 @@
-section {
+.gridMenu {
     max-width: 1000px;
     max-height: 50px;
     margin: 0 auto;
@@ -6,4 +6,14 @@ section {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 50px 50px 50px 50px;
+}
+
+.gridCaseProfessional {
+    max-width: 1000px;
+    max-height: 50px;
+    margin: 50px 20px 20px 133px;
+    background-color: $gridPro;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px 300px;
 }
