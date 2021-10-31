@@ -12,19 +12,48 @@
     grid-row: 1;
     @include bg-center('img/face_cachée.jpeg');
     width: 494px;
-    height: 400px;
+    height: 300px;
 }
 .pro2 {
-    grid-column: 2 / 4;
+    grid-column: 3 / 4;
     grid-row: 1;
     @include bg-center('img/robotutile.jpg');
     width: 250px;
     height: 200px;
 }
 .pro3 {
-    grid-column: 3 / 4;
+    grid-column: 4 / 4;
     grid-row: 1;
     @include bg-center('img/robotinutile.jpg');
     width: 250px;
     height: 200px;
+}
+.pro4 {
+    grid-column: 1 / 4;
+    grid-row: 2;
+}
+.persProject {
+    height: 100%;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.pers1 {
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+.pers2 {
+    grid-column: 1 / 4;
+    grid-row: 4;
+}
+.pers3 {
+    grid-column: 1 / 4;
+    grid-row: 5;
+}
+.pers4 {
+    grid-column: 1 / 4;
+    grid-row: 6;
 }
