@@ -9,10 +9,16 @@ header {
     font-size: 30px;
     color: #b637c2;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    @include xl {
+        font-size: 2Opx
+    }
 }
 
 .welcome {
     font-size: 25px;
     color: #7a5ec5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    @include xl {
+        font-size: 20px;
+    }
 }
