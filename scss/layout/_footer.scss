@@ -9,6 +9,9 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include xl {
+        
+    }
 }
 .contactMe {
     font-size: 30px;
