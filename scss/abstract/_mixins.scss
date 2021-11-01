@@ -2,3 +2,15 @@
     background: url($url);
     background-size: cover;
 }
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin xl {
+    @media screen and (max-width: 640px) {
+        @content;
+    }
+    
+}
