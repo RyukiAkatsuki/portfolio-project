@@ -2,7 +2,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
 }
 
 .hp {
@@ -10,7 +10,7 @@ header {
     color: #b637c2;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     @include xl {
-        font-size: 2Opx
+        font-size: 20px;
     }
 }
 
@@ -19,6 +19,6 @@ header {
     color: #7a5ec5;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     @include xl {
-        font-size: 20px;
+        font-size: 15px;
     }
 }
