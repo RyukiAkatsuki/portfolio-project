@@ -13,10 +13,6 @@
     @include bg-center('img/face_cachée.jpeg');
     width: 494px;
     height: 300px;
-    @include xl {
-        width: 400px;
-        height: 300px;
-    }
 }
 .pro2 {
     grid-column: 3 / 4;
@@ -36,7 +32,7 @@
     width: 250px;
     height: 200px;
     @include xl {
-        grid-column: 3 / 4;
+        grid-column: 2 / 4;
         grid-row: 2;
     }
 }
@@ -60,16 +56,28 @@
 .pers1 {
     grid-column: 1 / 4;
     grid-row: 3;
+    @include xl {
+        grid-row: 5;
+    }
 }
 .pers2 {
     grid-column: 1 / 4;
     grid-row: 4;
+    @include xl {
+        grid-row: 6;
+    }
 }
 .pers3 {
     grid-column: 1 / 4;
     grid-row: 5;
+    @include xl {
+        grid-row: 7;
+    }
 }
 .pers4 {
     grid-column: 1 / 4;
     grid-row: 6;
+    @include xl {
+        grid-row: 8;
+    }
 }
