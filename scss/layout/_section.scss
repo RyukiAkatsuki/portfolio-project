@@ -25,5 +25,6 @@
     @include xl {
         grid-template-columns: 1fr;
         grid-template-rows: 300px;
+        margin: auto;
     }
 }
