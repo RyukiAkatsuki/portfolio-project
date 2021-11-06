@@ -3,6 +3,9 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    @include xl {
+        margin-top: 160px;
+    }
 }
 .skillTitle {
     color: #e3c5eb;
