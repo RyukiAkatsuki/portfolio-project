@@ -40,6 +40,7 @@ body {
     width: 600px;
     height: 400px;
     @include xl {
+        margin-top: 170px;
         width: 300px;
         height: 200px;
         position: relative;
@@ -49,6 +50,9 @@ body {
     color: #9db9e2;
     display: flex;
     justify-content: center;
+    @include xl {
+        margin-top: 160px;
+    }
 }
 .order {
     margin: 20px;
@@ -56,6 +60,9 @@ body {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     display: flex;
     justify-content: center;
+    @include xl {
+        margin-top: 160px;
+    }
 }
 .firstPro {
     margin: 20px;
